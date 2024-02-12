@@ -1,38 +1,18 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+html {
+  height: 100%;
+  width: 100%;
+  background-image: url("https://media.istockphoto.com/id/672291718/photo/dark-gears-background.webp?b=1&s=170667a&w=0&k=20&c=fyUjJ1AR7h3ISk-wAjCZrk3r3qdrS9sdZAmthFE0mJU=");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.time {
+  color: orange;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
 }
